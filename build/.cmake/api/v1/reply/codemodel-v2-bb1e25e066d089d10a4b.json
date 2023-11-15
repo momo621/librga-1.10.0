@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0cf24af6ee947f667871.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "samples/im2d_api_demo",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-samples.im2d_api_demo-Debug-9789a8cf071228b5da53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "samples/im2d_api_demo",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rga",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "rgaImDemo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rga::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rga-Debug-ae200f7204d76d3c2819.json",
+					"name" : "rga",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rga-object::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rga-object-Debug-6b6955b3d5e2f91007c0.json",
+					"name" : "rga-object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rga-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rga-static-Debug-7c9a1ee0647762bdc1bb.json",
+					"name" : "rga-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rgaImDemo::@7491ffea08347591ec08",
+					"jsonFile" : "target-rgaImDemo-Debug-78a26cef14ca92ff7ca2.json",
+					"name" : "rgaImDemo",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zyz/test/librga-1.10.0/build",
+		"source" : "/home/zyz/test/librga-1.10.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

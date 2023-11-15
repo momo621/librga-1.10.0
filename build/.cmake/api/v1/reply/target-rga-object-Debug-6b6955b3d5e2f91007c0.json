@@ -1,0 +1,265 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/utils/android_utils/src/android_utils.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/utils/drm_utils/src/drm_utils.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/utils/utils.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/RockchipRga.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/GrallocOps.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/NormalRga.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/NormalRgaApi.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/RgaUtils.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/RgaApi.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/core/rga_sync.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/im2d_api/src/im2d_log.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/im2d_api/src/im2d_impl.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/rga-object.dir/im2d_api/src/im2d.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pipe -g -feliminate-unused-debug-types  -DUN_NEED_GL -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./im2d_api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./core/hardware"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./core/utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/./core/3rdparty/libdrm/include/drm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/hardware/libhardware/include/hardware"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/hardware/libhardware/modules/gralloc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/system/core/liblog/includeNDROID_NDK_REVISION_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/zyz/test/librga-1.10.0/system/core/libion/kernel-headers"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"sysroot" : 
+			{
+				"path" : "/opt/sdks/rk3568/sysroots/cortexa55-oe-linux"
+			}
+		}
+	],
+	"id" : "rga-object::@6890427a1f51a3e7e1df",
+	"name" : "rga-object",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/utils/android_utils/src/android_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/utils/drm_utils/src/drm_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/utils/utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/RockchipRga.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/GrallocOps.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/NormalRga.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/NormalRgaApi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/RgaUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/RgaApi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "core/rga_sync.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "im2d_api/src/im2d_log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "im2d_api/src/im2d_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "im2d_api/src/im2d.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,402 @@
+The target system is: Linux -  - cortexa55
+The host system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc -mcpu=cortex-a55;-march=armv8.2-a+crypto;-fstack-protector-strong;-O2;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux
+Build flags: ;-pipe;-g;-feliminate-unused-debug-types
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/zyz/test/librga-1.10.0/build/CMakeFiles/3.24.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++ -mcpu=cortex-a55;-march=armv8.2-a+crypto;-fstack-protector-strong;-O2;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux
+Build flags: ;-pipe;-g;-feliminate-unused-debug-types
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/zyz/test/librga-1.10.0/build/CMakeFiles/3.24.0-rc2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_14ed6/fast && /usr/bin/make  -f CMakeFiles/cmTC_14ed6.dir/build.make CMakeFiles/cmTC_14ed6.dir/build
+make[1]: Entering directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o
+/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux   -pipe -g -feliminate-unused-debug-types    -v -o CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc
+Target: aarch64-oe-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_14ed6.dir/'
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/cc1 -quiet -v -isysroot /opt/sdks/rk3568/sysroots/cortexa55-oe-linux -D _FORTIFY_SOURCE=2 /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_14ed6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a55 -march=armv8.2-a+crypto -mlittle-endian -mabi=lp64 -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8.2-a+crypto -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.38 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.38.20220708
+GNU C17 (GCC) version 11.3.0 (aarch64-oe-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/local/include"
+ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/../../../../../aarch64-oe-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/
+End of search list.
+GNU C17 (GCC) version 11.3.0 (aarch64-oe-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 77baffb02e96eba34cdeeda2644f113f
+COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/
+LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_14ed6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14ed6.dir/link.txt --verbose=1
+/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux  -pipe -g -feliminate-unused-debug-types  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -o cmTC_14ed6 
+Using built-in specs.
+COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc
+COLLECT_LTO_WRAPPER=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper
+Target: aarch64-oe-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/
+LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_14ed6' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_14ed6.'
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2 -plugin /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFt6m4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_14ed6 /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o -L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_14ed6' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_14ed6.'
+make[1]: Leaving directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+    add: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+  collapse include dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include]
+  implicit include dirs: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include;/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-oe-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_14ed6/fast && /usr/bin/make  -f CMakeFiles/cmTC_14ed6.dir/build.make CMakeFiles/cmTC_14ed6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux   -pipe -g -feliminate-unused-debug-types    -v -o CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc]
+  ignore line: [Target: aarch64-oe-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_14ed6.dir/']
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/cc1 -quiet -v -isysroot /opt/sdks/rk3568/sysroots/cortexa55-oe-linux -D _FORTIFY_SOURCE=2 /usr/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_14ed6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a55 -march=armv8.2-a+crypto -mlittle-endian -mabi=lp64 -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8.2-a+crypto -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.38 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.38.20220708]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (aarch64-oe-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/../../../../../aarch64-oe-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (aarch64-oe-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 77baffb02e96eba34cdeeda2644f113f]
+  ignore line: [COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/]
+  ignore line: [LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_14ed6]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14ed6.dir/link.txt --verbose=1]
+  ignore line: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux  -pipe -g -feliminate-unused-debug-types  -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -o cmTC_14ed6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-oe-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/]
+  ignore line: [LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_14ed6' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_14ed6.']
+  link line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2 -plugin /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFt6m4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_14ed6 /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o -L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+    arg [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFt6m4P.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_14ed6] ==> ignore
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o]
+    arg [-L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0] ==> dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_14ed6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+  collapse library dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+  implicit dirs: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee1b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee1b1.dir/build.make CMakeFiles/cmTC_ee1b1.dir/build
+make[1]: Entering directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o
+/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux   -pipe -g -feliminate-unused-debug-types    -v -o CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++
+Target: aarch64-oe-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ee1b1.dir/'
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/cc1plus -quiet -v -isysroot /opt/sdks/rk3568/sysroots/cortexa55-oe-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ee1b1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a55 -march=armv8.2-a+crypto -mlittle-endian -mabi=lp64 -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8.2-a+crypto -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o
+GNU C++17 (GCC) version 11.3.0 (aarch64-oe-linux)
+	compiled by GNU C version 11.3.0, GNU assembler version 2.38 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.38.20220708
+GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/local/include"
+ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/../../../../../aarch64-oe-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed
+ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/
+End of search list.
+GNU C++17 (GCC) version 11.3.0 (aarch64-oe-linux)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fb7a67bdfb2096b1214d2bde4fe76cad
+COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/
+LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_ee1b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee1b1.dir/link.txt --verbose=1
+/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux  -pipe -g -feliminate-unused-debug-types  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee1b1 
+Using built-in specs.
+COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++
+COLLECT_LTO_WRAPPER=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper
+Target: aarch64-oe-linux
+Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/
+LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_ee1b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ee1b1.'
+ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2 -plugin /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0fbesF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_ee1b1 /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o -L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_ee1b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ee1b1.'
+make[1]: Leaving directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward]
+    add: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+    add: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+    add: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/]
+  end of search list found
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward]
+  collapse include dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+  collapse include dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+  collapse include dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include]
+  implicit include dirs: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward;/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include;/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-oe-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee1b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee1b1.dir/build.make CMakeFiles/cmTC_ee1b1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/zyz/test/librga-1.10.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux   -pipe -g -feliminate-unused-debug-types    -v -o CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++]
+  ignore line: [Target: aarch64-oe-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ee1b1.dir/']
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/cc1plus -quiet -v -isysroot /opt/sdks/rk3568/sysroots/cortexa55-oe-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/local/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ee1b1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a55 -march=armv8.2-a+crypto -mlittle-endian -mabi=lp64 -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/as -v --gdwarf-5 -EL -march=armv8.2-a+crypto -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (aarch64-oe-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GNU assembler version 2.38 (aarch64-oe-linux) using BFD version (GNU Binutils) 2.38.20220708]
+  ignore line: [GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/../../../../../aarch64-oe-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include]
+  ignore line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed]
+  ignore line: [ /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (aarch64-oe-linux)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fb7a67bdfb2096b1214d2bde4fe76cad]
+  ignore line: [COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/]
+  ignore line: [LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_ee1b1]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee1b1.dir/link.txt --verbose=1]
+  ignore line: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++   -mcpu=cortex-a55 -march=armv8.2-a+crypto -fstack-protector-strong  -O2 -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux  -pipe -g -feliminate-unused-debug-types  -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee1b1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-oe-linux]
+  ignore line: [Configured with: ../../../../../work-shared/gcc-11.3.0-r0/gcc-11.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=aarch64-oe-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-oe-linux- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.3.0 --with-build-time-tools=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot-native/usr/aarch64-oe-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/opt/image-out/pro-convert-kirkstone/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-aarch64/11.3.0-r0/recipe-sysroot --enable-standard-branch-protection --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/]
+  ignore line: [LIBRARY_PATH=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/:/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-a55' '-march=armv8.2-a+crypto' '-fstack-protector-strong' '-O2' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'cmTC_ee1b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ee1b1.']
+  link line: [ /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2 -plugin /opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so -plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0fbesF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_ee1b1 /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o -L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0 -L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o /opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+    arg [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/libexec/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0fbesF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/sdks/rk3568/sysroots/cortexa55-oe-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ee1b1] ==> ignore
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o]
+    arg [-L/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0] ==> dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0]
+    arg [-L/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib] ==> dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_ee1b1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o]
+    arg [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o] ==> obj [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+  collapse library dir [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0] ==> [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0]
+  collapse library dir [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib] ==> [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/Scrt1.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crti.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtbeginS.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/crtendS.o;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/crtn.o]
+  implicit dirs: [/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0;/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib]
+  implicit fwks: []
+
+

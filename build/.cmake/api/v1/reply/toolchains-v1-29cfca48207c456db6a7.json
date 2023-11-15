@@ -1,0 +1,105 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include",
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-gcc",
+				"version" : "11.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/aarch64-oe-linux",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include/c++/11.3.0/backward",
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0/include",
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0/include-fixed",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/lib/aarch64-oe-linux/gcc/aarch64-oe-linux/11.3.0",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/lib",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib/aarch64-oe-linux/11.3.0",
+						"/opt/sdks/rk3568/sysroots/cortexa55-oe-linux/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/opt/sdks/rk3568/sysroots/x86_64-oesdk-linux/usr/bin/aarch64-oe-linux/aarch64-oe-linux-g++",
+				"version" : "11.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
